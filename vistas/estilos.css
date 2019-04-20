@@ -1,0 +1,58 @@
+.fas fa-home .fas fa-cogs .far fa-address-card{
+    margin-right: 2px;
+}
+.fas fa-cart-plus{
+    align: right;
+}
+.cambio-carousel-indicator li {
+  width: 10px;
+  height: 10px;
+  border-radius: 100%;
+  }
+.cambio-card-deck {
+    margin-left: 6px;
+    margin-right: 6px;
+    transform: translateY(10%);
+    margin-bottom: 10%;
+    margin-top: 20px;
+}
+.cambio-card-sombra{
+ -webkit-box-shadow: 2px 2px 7px -2px rgba(0,0,0,0.42);
+-moz-box-shadow: 2px 2px 7px -2px rgba(0,0,0,0.42);
+box-shadow: 2px 2px 7px -2px rgba(0,0,0,0.42);
+}
+.row{
+    margin-bottom: 20% !important;
+    margin-left: 6px !important;
+    margin: 6px!important;
+}
+.contenedor-slider-infinito{
+  width: 100%;
+  height: auto;
+  overflow-x: hidden;
+}
+#slider-infinito{
+  width: 2000px;
+  height: 180px;
+
+  background-image: url('../imagenes/slider-automatico.jpg');
+  background-size: 100% 100%;
+
+  animation: slider-infinito 10s infinite linear;
+}
+
+@keyframes slider-infinito {
+  to{
+    background-position: 2000px;
+  }
+}
+a .cambio-btn-footer{
+    transform: translateX(-50%);
+}
+.msj{
+    text-align: center;
+    justify-content: center;
+}
+.whts{
+    margin-left: 50%;
+}
